@@ -15,7 +15,7 @@ function getApiGitHub(){
         
         li.innerHTML = `
         <p>
-          <a href=${item.git_url}>${item.name.toUpperCase()}</a>
+          <a href=${item.html_url}>${item.name.toUpperCase()}</a>
         </p>
         <p>Data de Criação:
         ${
