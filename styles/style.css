@@ -116,11 +116,13 @@ body{
 .apresentacao__repos li {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 20px auto;
     font-size: 1.25rem;
     color: var(--cor-secundaria);
     font-weight: 400;
-    font-family: var(--font-secundaria)    
+    font-family: var(--font-secundaria);
 }
 
 .apresentacao__repos li span {
@@ -130,6 +132,20 @@ body{
 .apresentacao__repos a {
     text-decoration: none;
     color: var(--cor-terciaria);
+}
+
+.apresentacao__repos h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    font-size: 2.25rem;
+    font-family: var(--font-primaria)
+}
+
+.apresentacao__repos hr {
+    margin: 0 30%;
 }
 
 /* footer */
