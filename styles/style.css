@@ -113,6 +113,25 @@ body{
     width: 70%;
 }
 
+.apresentacao__repos li {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    font-size: 1.25rem;
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-family: var(--font-secundaria)    
+}
+
+.apresentacao__repos li span {
+    margin: 10px;
+}
+
+.apresentacao__repos a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
 /* footer */
 .rodape {
     padding: 28px;
