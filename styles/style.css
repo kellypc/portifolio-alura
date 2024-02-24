@@ -111,6 +111,12 @@ body{
 
 .apresentacao__imagem__foto {
     width: 70%;
+    margin-bottom: 10px;
+}
+
+.apresentacao__imagem_resume {
+    text-decoration: none;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__repos li {
